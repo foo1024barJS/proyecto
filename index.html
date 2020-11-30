@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Proyecto Final</title>
+</head>
+<body>
+    <form id="inferencia">
+        <fieldset>
+            <legend>Preguntas</legend>
+            <div>
+                <div id="preguntas"></div>
+                <hr>
+
+                <input type="submit" value='siguiente'>
+            </div>
+        </fieldset>
+    </form>
+    <form id="programa_de_estudios">
+        <fieldset>
+            <legend>Programa de Estudios</legend>
+            <div>
+                <label for="materias_de_fundamentos">Materias de Fundamentos</label>
+                <ul id="materias_de_fundamentos"></ul>
+                <hr>
+
+                <label for="materias_de_tronco_comun">Materias de Tronco Comun</label>
+                <p>Pueden omitirse si se comprueba haberlos cursado anteriormente o haber obtenido un diploma previo (como
+                cuando se tiene certificado de inglés, es posible saltarse una o más materias de inglés
+                del tronco común). Sin embargo si el estudiante omite alguna de estas materias, deberá
+                de tomar más materias optativas.</p>
+                <ul id="materias_de_tronco_comun" class='ul'></ul>
+                <hr>
+
+                <label for="materias_de_especialidad">Materias de Especialidad</label>
+                <select name="materias_de_especialidad" 
+                        id="materias_de_especialidad">
+                </select>
+                <ul id="materias_de_especialidad_" class='ul'></ul>
+                <hr>
+                
+                <div id="segunda">
+                    <label for="materias_de_segunda_especialidad">Segunda Especialidad (Opcional)</label>
+                    <select name="materias_de_segunda_especialidad" 
+                            id="materias_de_segunda_especialidad">
+                    </select>
+                    <ul id="materias_de_segunda_especialidad_" class='ul'></ul>
+                </div>
+            
+                <hr>
+
+                <label>Materias Optativas (4)</label>
+                <p id="optativas"></p>
+                <ul id="materias_optativas" class="ul"></ul>
+                <hr>
+
+                <input type="submit" value="regresar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

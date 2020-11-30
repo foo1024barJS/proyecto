@@ -1,0 +1,77 @@
+form {
+    background: #ffffff85;
+    margin: 50px;
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    border: 1px solid #00a9ff;
+    box-shadow: 0 0 10px #0000006e;
+}
+
+form div {
+    border: 1px solid #0000003b;
+    padding: 10px;
+}
+
+input, select {
+
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.label_1 {
+    display: initial;
+    font-weight: initial;
+}
+
+body {
+    background: #eefcff url("background.png") fixed;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15px;
+}
+
+input[type=checkbox] {
+    radius: 0;
+}
+
+input[type=submit] {
+    border: 1px solid white;
+    background: #ffffff00;
+    box-shadow: inset 0 0 10px #00000052;
+    padding: 10px;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+select {
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 2px;
+    background: white;
+}
+
+
+#segunda {
+    display: none;
+    border: none;
+}
+
+p {
+    text-align: justify;
+}
+
+#programa_de_estudios {
+    display: none;
+}
